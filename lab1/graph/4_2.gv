@@ -1,0 +1,12 @@
+digraph a {
+  start -> A
+  A -> C [label="1"]
+  C -> A [label="1"]
+  C -> A [label="0"]
+  A -> B [label="0"]
+  B -> E [label="0"]
+  E -> B [label="0"]
+  B -> E [label="1"]
+  E -> E [label="1"]
+  E -> end 
+}

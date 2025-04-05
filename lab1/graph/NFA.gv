@@ -1,0 +1,17 @@
+digraph NFA {
+  1 -> 2[label="a"]
+  2 -> 6[label="eps"]
+  3 -> 4[label="b"]
+  4 -> 6[label="eps"]
+  5 -> 1[label="eps"]
+  5 -> 3[label="eps"]
+  6 -> 5[label="eps"]
+  6 -> 8[label="eps"]
+  7 -> 5[label="eps"]
+  7 -> 8[label="eps"]
+  8 -> 10[label="a"]
+  10 -> 11[label="b"]
+  11 -> 12[label="b"]
+  start -> 7[label="eps"]
+  12 -> end[label="eps"]
+}
