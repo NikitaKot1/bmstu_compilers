@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab2.dir/main.cpp.o CMakeFiles/lab2.dir/parser.cpp.o CMakeFiles/lab2.dir/grammar.cpp.o CMakeFiles/lab2.dir/fincs.cpp.o -o lab2 
