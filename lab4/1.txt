@@ -1,0 +1,7 @@
+main {
+    a = false;
+    b = true;
+    c = false;
+    d = ~a ! b;
+    e = ~d & (c & a)
+}

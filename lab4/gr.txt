@@ -1,0 +1,13 @@
+S -> A
+A -> O | O A1
+A1 -> ! O A1
+O -> V | V O1
+O1 -> & V O1
+V -> P | ~P
+P -> Z | I
+Z -> true | false
+Prog -> Block
+Block -> { List }
+List -> Per Tail
+Tail -> ; Oper Tail | eps
+Oper -> I = S
